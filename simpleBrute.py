@@ -1,6 +1,4 @@
-import sys
-import requests
-import time
+import sys,requests,time
 from bs4 import BeautifulSoup
 
 def prLightPurple(skk): print("\033[94m{}\033[00m" .format(skk))
