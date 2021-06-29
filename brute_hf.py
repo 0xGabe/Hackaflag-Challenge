@@ -59,4 +59,4 @@ else:
                 print(banner.format(i.replace("\n", ""),j.replace("\n", ""),str(end).split('>')[-3].split('<')[0], res.status_code, len(res.content)))
             except IndexError:
                 print(soup.prettify())   
-            time.sleep(5)
+            time.sleep(2.5)
